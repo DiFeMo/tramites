@@ -39,6 +39,7 @@
               <li><a href="home.php?pag=4">Tramites</a></li>
               <li><a href="home.php?pag=6">Clientes</a></li>
               <li><a href="home.php?pag=8">Tramitantes</a></li>
+               <li><a href="index.php?pag=11">Caja</a></li>
       				<li><a href="home.php?pag=10"><span class="glyphicon glyphicon-eye-open"></a></li>
     			</ul>
   		</div>
@@ -81,6 +82,10 @@
       if ($page == 10) 
       {
         include("vista/vcreditos.php");
+      }
+        if ($page == 11) 
+      {
+        include("vista/vcsutilidad.php");
       }
        
 		?>
