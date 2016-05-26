@@ -4,14 +4,14 @@
 
 	$gastos = new Mgastos();
 
-	$idgastosedit 	= isset($_POST['idgastos']) ? $_POST['idgastos'] : NULL;
+	$idgastosedit 	= isset($_POST['idgasto']) ? $_POST['idgasto'] : NULL;
 	$fecha        	= isset($_POST['fecha']) ? $_POST['fecha'] : NULL;
 	$motivo      	= isset($_POST['motivo']) ? $_POST['motivo'] : NULL;
 	$valor    		= isset($_POST['valor']) ? $_POST['valor'] : NULL;
     $observacion    = isset($_POST['observacion']) ? $_POST['observacion'] : NULL;
 	/*$idgastoseli  = isset($_POST['idgastoseli']) ? $_POST['idgastoseli'] : NULL;*/
 	$actu          	= isset($_POST['actu']) ? $_POST['actu'] : NULL;
-	$idgastos     	= isset($_GET['id']) ? $_GET['id'] : NULL;	
+	$idgasto     	= isset($_GET['id']) ? $_GET['id'] : NULL;	
 
 	/*
 		Comprobar si las variables de fecha y detalle tienen datos, de ser asi se procede a enviarle los parametros
@@ -31,7 +31,7 @@
 	/*
 		Comprobar el id para editar ese unico registro
 	*/
-	if ($idgastos) 
+	if ($idgasto) 
 	{
-		$consultaedit = $gastos->consultar_gastos_id($idgastos);
+		$consultaedit = $gastos->consultar_gastos_id($idgasto);
 	}

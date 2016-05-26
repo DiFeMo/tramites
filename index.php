@@ -3,13 +3,14 @@
 <head>
 	<title>Tramites</title>
 	<meta charset="utf-8">
-  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 	<!--<link rel="shortcut icon" href="imagen/icono4.png">-->
 	
 	<link rel="stylesheet" href="css/bootstrap.min.css"/>  	
   <link rel="stylesheet" href="css/bootstrap-responsive.css"/>
-	<link rel="stylesheet" href="css/tablaResponsive.css"/>
-	<link rel="stylesheet" href="css/datatable.css"/>
+	<link rel="stylesheet" href="https://cdn.datatables.net/1.10.11/css/jquery.dataTables.min.css"/>
+	<link rel="stylesheet" href="css/responsive.dataTables.min.css"/>
+  <link rel="stylesheet" href="css/prueba.css"/>
 	<link rel="stylesheet" href="css/estilo.css">
 	<link rel="stylesheet" href="fonts/style.css">        
 	<link rel="stylesheet" href="css/chosen.css">
@@ -19,10 +20,14 @@
   <script src="js/script.js"></script>
   <script src="js/bootstrap.min.js"></script>
 	<script src="js/bootstrap-tab.js"></script>
-	<script src="js/jquery-datatable.js"></script>
-  	
+	<script src="js/jquery.dataTables.min.js"></script>
+  <script src="js/dataTables.responsive.min.js"></script>
+
 </head>
 <body>
+<?php
+  date_default_timezone_set('America/Bogota');
+?>
 	<nav class="navbar navbar-inverse">
   		<div class="container-fluid">
     		<div class="navbar-header">
@@ -35,12 +40,12 @@
     		</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
     			<ul class="nav navbar-nav">
-      				<li class="active"><a href="home.php?pag=2">Gastos</a></li>
-              <li><a href="home.php?pag=4">Tramites</a></li>
-              <li><a href="home.php?pag=6">Clientes</a></li>
-              <li><a href="home.php?pag=8">Tramitantes</a></li>
-               <li><a href="index.php?pag=11">Caja</a></li>
-      				<li><a href="home.php?pag=10"><span class="glyphicon glyphicon-eye-open"></a></li>
+      				<li class="active"><a href="index.php?pag=2">Gastos</a></li>
+              <li><a href="index.php?pag=4">Tramites</a></li>
+              <li><a href="index.php?pag=6">Clientes</a></li>
+              <li><a href="index.php?pag=8">Tramitantes</a></li>
+              <li><a href="index.php?pag=11">Caja</a></li>
+      				<li><a href="index.php?pag=10"><span class="glyphicon glyphicon-eye-open"></a></li>
     			</ul>
   		</div>
 	</nav>

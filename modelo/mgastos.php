@@ -43,7 +43,7 @@
 		 */
 		function consultar_gastos()
 		{
-			$sql = "SELECT * FROM tbgastos ORDER BY idgastos";
+			$sql = "SELECT * FROM tbgastos ORDER BY idgasto";
 			return $this->SeleccionDatos($sql);
 		}
 		/*
