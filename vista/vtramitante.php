@@ -22,11 +22,10 @@
 	</form>
 </div>
 <?php $consultatramitante = $tramitante->consultar_tramitante(); ?>
-					<div id='no-more-tables'>
-						<table class="table table-bordered table-hover" id="example">
-				  <thead>
+	<table id="" class="display" cellspacing="0" width="100%">
+	   <thead>
             <tr>
-                <th colspan="3">Listado de tramitantes</th>
+                <th colspan="5">Listado de tramitantes</th>
             </tr>
             <tr>
                 <th>ID</th>
