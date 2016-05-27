@@ -34,7 +34,7 @@
 		<div class="form-group col-sm-6 col-md-4 col-lg-4">
             <label for=""><span style="color:red;">* </span>Estado:</label>
            <select name="estado" class="form-control" required>
-                    <option value="<?= $consultaedit[0]['estado']  ?>"><?= $consultaedit[0]['estado']  ?>n</option>
+                    <option value="<?= $consultaedit[0]['estado']  ?>"><?= $consultaedit[0]['estado']  ?></option>
                     <option value="1">Pendiente</option>
                     <option value="2">Completo</option>
             </select>       
