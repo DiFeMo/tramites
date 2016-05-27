@@ -14,9 +14,6 @@
 	$actu           = isset($_POST['actu']) ? $_POST['actu'] : NULL;
 	$idcliente   	= isset($_GET['id']) ? $_GET['id'] : NULL;	
 	
-	if($idtramitante == 0){
-		$idtramitante == NULL;
-	}
 
 	/*
 		Variables para traer los datos del desplegable

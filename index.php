@@ -36,16 +36,16 @@
         			<span class="icon-bar"></span>
         			<span class="icon-bar"></span>                        
       			</button>
-      			<a class="navbar-brand" href="index.php">Tramites</a>
+      			<a class="navbar-brand active" href="index.php">Tramites</a>
     		</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
     			<ul class="nav navbar-nav">
-      				<li class="active"><a href="index.php?pag=2">Gastos</a></li>
-              <li><a href="index.php?pag=4">Tramites</a></li>
-              <li><a href="index.php?pag=6">Clientes</a></li>
-              <li><a href="index.php?pag=8">Tramitantes</a></li>
-              <li><a href="index.php?pag=11">Caja</a></li>
-      				<li><a href="index.php?pag=10"><span class="glyphicon glyphicon-eye-open"></a></li>
+      				<li id="gastos"><a href="index.php?pag=2">Gastos</a></li>
+              <li id="tramite"><a href="index.php?pag=4">Tramites</a></li>
+              <li id="clientes"><a href="index.php?pag=6">Clientes</a></li>
+              <li id="tramitante"><a href="index.php?pag=8">Tramitantes</a></li>
+              <li id="caja"><a href="index.php?pag=11">Caja</a></li>
+      				<li id="creditos"><a href="index.php?pag=10"><span class="glyphicon glyphicon-eye-open"></a></li>
     			</ul>
   		</div>
 	</nav>

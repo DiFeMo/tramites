@@ -16,8 +16,8 @@
             <label for="">Email:</label>
             <input type="text" class="form-control" name="email" maxlength="30">       
 		</div>
-		 <div class="form-group col-sm-6 col-md-4 col-lg-4"> <br>          		
-            <button type="submit" class="btn btn-success" value="Insertar">Registrar <span class="icon-checkmark"></span></button>
+		 <div class="form-group col-sm-12 col-md-12 col-lg-12"> <br>          		
+            <button type="submit" class="btn btn-success center-block" value="Insertar">Registrar <span class="icon-checkmark"></span></button>
         </div>
 	</form>
 </div>
@@ -51,3 +51,10 @@
     </div>
     </div><!--/row-->
 <br/><br/>  
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".nav li").removeClass("active");//this will remove the active class from  
+                                           //previously active menu item 
+        $('#tramitante').addClass('active');
+    });
+</script>

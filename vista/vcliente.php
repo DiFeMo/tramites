@@ -25,7 +25,7 @@
            <input type="text" class="form-control" name="email" maxlength="30">        
 		</div>
 		<div class="form-group col-sm-6 col-md-4 col-lg-4">
-            <label for="">Tramitante:</label>
+            <label for=""><span style="color:red;">* </span>Tramitante:</label>
            	<select name="idtramitante" class="chzn-select form-control" required>
 				<option value=0>Seleccione opcion</option>
 				<?php for($i=0;$i<count($tramitante2);$i++): ?>
@@ -73,3 +73,10 @@
         </tbody>
     </table>
     <br>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".nav li").removeClass("active");//this will remove the active class from  
+                                           //previously active menu item 
+        $('#clientes').addClass('active');
+    });
+</script>

@@ -44,7 +44,7 @@
 			return $this -> SeleccionDatos($sql);
 		}
 		 /*
-		 	Función para la seleccion de la tabla empleado
+		 	Función para la seleccion de la tabla tramitante
 		 */
 		function sel_tramitante()        
 		{
@@ -52,7 +52,7 @@
             return $this->SeleccionDatos($sql);
         }
         /*
-		 	Función para la seleccion especifica de los datos de la tabla empleado
+		 	Función para la seleccion especifica de los datos de la tabla tramitante
 		 */
 		function sel_tramitante1($idtramitante)
 		{

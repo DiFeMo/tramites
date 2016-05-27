@@ -79,3 +79,10 @@ $consultautilidad = $utilidad->consultar_utilidad();
     </table> 
    </div>    
 </div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".nav li").removeClass("active");//this will remove the active class from  
+                                           //previously active menu item 
+        $('#caja').addClass('active');
+    });
+</script>
