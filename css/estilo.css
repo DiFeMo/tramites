@@ -64,9 +64,12 @@
     background-color: #000;;
 }
 .edit {
-    text-align: center;
+    
     margin-top: 5%;
     color: #FFF;
+}
+.careto {
+    text-align: center;
 }
 .blanco {
     color: #FFF;
