@@ -281,3 +281,13 @@ input[id^="spoiler"]:checked + label + .spoiler{
   opacity: 1;
   padding: 10px;
 }
+
+.input-group-addon
+{
+    background-color:#FFF;
+}
+
+.input-group .input-group-addon + .form-control
+{
+    border-left:none;
+}

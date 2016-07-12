@@ -10,11 +10,14 @@
 		</div>
 		<div class="form-group col-sm-6 col-md-6 col-lg-6">
             <label for=""><span style="color:red;">* </span>Motivo:</label>
-            <input type="text" class="form-control" name="motivo" maxlength="100" placeholder="Motivo del gasto">       
+            <input type="text" class="form-control" name="motivo" maxlength="100" placeholder="Motivo del gasto" required>       
 		</div>
 		<div class="form-group col-sm-6 col-md-6 col-lg-6">
             <label for=""><span style="color:red;">* </span>Valor:</label>
-            <input type="number" class="form-control" name="valor" pattern="[0-9]{1,11}" min="0" title="Solo se permiten numeros, máximo 11">       
+            <div class="input-group">
+              <span class="input-group-addon">$</span>
+              <input type="number" class="form-control" name="valor" pattern="[0-9]{1,11}" min="0" title="Solo se permiten numeros, máximo 11" required>
+            </div>      
 		</div>
 		<div class="form-group col-sm-6 col-md-6 col-lg-6">
             <label for="">Observacion:</label>

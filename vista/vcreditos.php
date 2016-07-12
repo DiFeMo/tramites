@@ -2,12 +2,12 @@
    <div class="careto">
     <div style="color: white; border: 2px dashed #ccc; margin-top: 100px;"><br>
         <p>------------------------------------------------------------------------- </p>
-        <p>Sistema de Informacion de regitro y contabilidad</p>
+        <p>Sistema de Información de registro y contabilidad</p>
         <p>-------------------------------------------------------------------------- </p>         
           
-        <p>Desarrado por:</p> 
+        <p>Desarrollado por:</p> 
         <p> Leonardo Triana<br>Cel: 321 922 18 64<br>Email: dtgrafos@gmail.com</p>        
-        <p>Diego Monrroy<br>Cel: 312 584 14 55<br>Email: difemo91@gmail.com</p>
+        <p>Diego Monroy<br>Cel: 312 584 14 55<br>Email: difemo91@gmail.com</p>
         <p>-------------------------------------------------------------------------- 
         <br><br>
         <img src="css/1.png" class="animated infinite tada" width=80 height=80 alt="? ? ?">&nbsp;&nbsp;

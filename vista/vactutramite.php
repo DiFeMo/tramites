@@ -25,7 +25,10 @@
 		</div>
 		<div class="form-group col-sm-6 col-md-4 col-lg-4">
 			<label for=""><span style="color:red;">* </span>Costo del Trámite:</label>
-            <input type="text" class="form-control" name="costotramite" value="<?= $consultaedit[0]['costotramite']  ?>"pattern="[0-9]{1,11}" min="0" title="Solo se permiten numeros, máximo 11" required>
+            <div class="input-group">
+                <span class="input-group-addon">$</span>
+                <input type="text" class="form-control" name="costotramite" value="<?= $consultaedit[0]['costotramite'] ?>" pattern="[0-9]{1,11}" min="0" title="Solo se permiten numeros, máximo 11" required readonly>
+            </div>
 		</div>
 		<div class="form-group col-sm-6 col-md-4 col-lg-4">
 			<label for="">Descripción:</label>

@@ -53,19 +53,22 @@
             </select>
 		</div>
 		<div class="form-group col-sm-6 col-md-4 col-lg-6">
-           <label for=""><span style="color:red;">* </span>Costo del Trámite:</label>
-           <input type="text" class="form-control" name="costotramite"  pattern="[0-9]{1,11}" min="0" title="Solo se permiten numeros, máximo 11" required>        
+            <label for=""><span style="color:red;">* </span>Costo del Trámite:</label>
+            <div class="input-group">
+                <span class="input-group-addon">$</span>
+                <input type="text" class="form-control" name="costotramite" pattern="[0-9]{1,11}" min="0" title="Solo se permiten numeros, máximo 11" required>
+            </div>  
 		</div>
 		<div class="form-group col-sm-6 col-md-4 col-lg-6">
-             <label for="">Descripción:</label>
+            <label for="">Descripción:</label>
             <input type="text" class="form-control" name="descripcion" maxlength="150">           
 		</div>
 		<div class="form-group col-sm-6 col-md-4 col-lg-6">
            <label for=""><span style="color:red;">* </span>Estado:</label>
            <select name="estado" class="form-control" required>
-                    <option value="">Seleccione una Opción</option>
-                    <option value="1">Pendiente</option>
-                    <option value="2">Completo</option>
+                <option value="">Seleccione una Opción</option>
+                <option value="1">Pendiente</option>
+                <option value="2">Completo</option>
             </select>           
 		</div>
 		<div class="form-group col-sm-6 col-md-6 col-lg-6"> <br>  
