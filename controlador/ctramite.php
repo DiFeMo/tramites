@@ -1,6 +1,6 @@
 <?php
 	
-	include('modelo/mtramite.php');
+	include 'modelo/mtramite.php';
 
 	$tramite = new Mtramite();
 

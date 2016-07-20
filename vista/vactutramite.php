@@ -1,7 +1,7 @@
 <body class="fondo"> 
 <div class="edit">
                         	
-<?php include("controlador/ctramite.php"); ?>
+<?php include 'controlador/ctramite.php'; ?>
 	<div class="eti">Editar Tramite</div>
 
 	<form action="index.php?pag=4&id=<?= $idtramite?>" method="POST">

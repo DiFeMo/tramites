@@ -45,6 +45,7 @@
               <li id="tramite"><a href="index.php?pag=4">Tramites</a></li>
               <li id="clientes"><a href="index.php?pag=6">Clientes</a></li>
               <li id="tramitante"><a href="index.php?pag=8">Tramitantes</a></li>
+              <li id="entregado"><a href="index.php?pag=12">Entregado</a></li>
               <li id="caja"><a href="index.php?pag=11">Caja</a></li>
       				<li id="creditos"><a href="index.php?pag=10"><span class="glyphicon glyphicon-eye-open"></a></li>
     			</ul>
@@ -89,9 +90,17 @@
       {
         include("vista/vcreditos.php");
       }
-        if ($page == 11) 
+      if ($page == 11) 
       {
         include("vista/vcsutilidad.php");
+      }
+      if ($page == 12) 
+      {
+        include 'vista/ventregado.php';
+      }
+      if ($page == 13) 
+      {
+        include 'vista/vactuentregado.php';
       }
        
 		?>

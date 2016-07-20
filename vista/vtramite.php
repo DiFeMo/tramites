@@ -1,11 +1,11 @@
-<?php include("controlador/ctramite.php"); ?>
+<?php include 'controlador/ctramite.php'; ?>
 
 <script language="javascript">
 	function mostrarservicios(val){
 				if (document.getElementById){ //se obtiene el id
 					var el = document.getElementById('mosserv'); //se define la variable "el" igual a nuestro div
 					el.style.display = 'none';
-					if (val == '1' || val == '2' || val == '6'){
+					if (val == '1' || val == '2' || val == '6' || val == '7'){
 						el.style.display = 'block';
 					}else{
 						el.style.display = 'none';
@@ -41,6 +41,7 @@
                     <option value="4">Derecho Laboral</option>
                     <option value="5">Creación de Empresa</option>
                     <option value="6">Trámite General</option>
+                    <option value="7">Afiliacion Domestica</option>
             	</select>    
 		</div>
 		<div class="form-group col-sm-6 col-md-4 col-lg-6" id="mosserv">
@@ -71,7 +72,7 @@
                 <option value="2">Completo</option>
             </select>           
 		</div>
-		<div class="form-group col-sm-6 col-md-6 col-lg-6"> <br>  
+		<div class="form-group col-sm-6 col-md-6 col-lg-12"> <br>  
             <button type="submit" class="btn btn-success center-block" value="Insertar">Registrar <span class="glyphicon glyphicon-check"></span></button>
         </div>
 	</form>
