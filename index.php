@@ -53,6 +53,11 @@
 	</nav>
     <div class="container">  		
 		<?php
+        
+        $page = isset($_GET['pag']) ? $_GET['pag'] : NULL;
+      if($page == null){
+          include("vista/vhome.php");
+      }
 			$page = isset($_GET['pag']) ? $_GET['pag'] : NULL;
 			if ($page == 2) 
 			{
@@ -125,6 +130,6 @@
            }
           });
         } );
-      </script>
+      </script>   
 </body>
 </html>

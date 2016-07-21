@@ -80,3 +80,7 @@
         $('#clientes').addClass('active');
     });
 </script>
+
+      <div class="logo">
+          <img src="css/tramiteslogo.svg" width="140px" alt="Logo.svg"> 
+      </div>
